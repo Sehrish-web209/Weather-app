@@ -97,6 +97,6 @@ Through this project, I practiced:
 
 👩‍💻 Author
 
-Sehrish
+Sehrish Maqbool
 BSIT Student at University of Chakwal
 Project created as part of SyntecxHub Internship.
