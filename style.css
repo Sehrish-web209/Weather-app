@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+body {
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.weather-card {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.35));
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 40px 30px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: #1f1f1f; 
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+
+h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input::placeholder {
+    color: #777;
+}
+
+input:focus {
+    border: 1px solid #00feba;
+    background: rgba(255,255,255,0.9);
+    color: #1f1f1f;
+    box-shadow: 0 0 8px rgba(0, 255, 186, 0.4);
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    background: #fff;
+    color: #5b548a;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #00feba;
+    color: #1f1f1f; 
+    transform: translateY(-2px);
+}
+
+#weatherResult img {
+    width: 120px;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.3));
+}
+
+.temp {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.city-name {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #1f1f1f;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.details p {
+    color: #333;
+}
+
+.welcome-msg {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    color: #444;
+}
