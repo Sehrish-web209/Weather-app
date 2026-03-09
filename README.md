@@ -63,7 +63,7 @@ Weather-App/
 
 1. Clone this repository:
 
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/Sehrish-web209/weather-app.git
 
 2. Open the project folder.
 
@@ -73,7 +73,10 @@ const apiKey = "YOUR_API_KEY_HERE";
 
 4. Open index.html in your browser.
 
----
+## 🌐 Live Demo
+
+Check out the live version of the Weather App here:  
+[https://sehrish-web209.github.io/Weather-app/](https://sehrish-web209.github.io/Weather-app/)
 
 🎥 Project Demo
 
