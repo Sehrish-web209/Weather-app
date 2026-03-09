@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -23,10 +23,11 @@ body {
     width: 100%;
     max-width: 400px;
     text-align: center;
-    color: #1f1f1f; 
+    color: #1f1f1f;
     box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
+
 
 h1 {
     font-weight: 600;
@@ -72,14 +73,23 @@ button {
     color: #5b548a;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease; 
 }
+
 
 button:hover {
     background: #00feba;
-    color: #1f1f1f; 
+    color: #1f1f1f;
     transform: translateY(-2px);
 }
+
+
+button:active {
+    background: #00feba; 
+    color: #1f1f1f;
+    transform: translateY(0); 
+}
+
 
 #weatherResult img {
     width: 120px;
@@ -116,7 +126,6 @@ button:hover {
     color: #444;
 }
 
-/* ------------------- Responsive for Mobile ------------------- */
 @media (max-width: 480px) {
     .weather-card {
         padding: 25px 15px;
@@ -124,26 +133,54 @@ button:hover {
         border-radius: 20px;
     }
 
-    input, button {
-        padding: 10px 15px;
-        font-size: 14px;
+    .search-container {  
+        flex-direction: row;  
+        flex-wrap: nowrap;  
+        gap: 8px;  
+        margin-bottom: 20px;  
+    }  
+
+    input {  
+        flex: 1;  
+        padding: 10px 15px;  
+        font-size: 14px;  
+    }  
+
+    button {  
+        padding: 10px 15px;  
+        font-size: 14px;  
+        background: #fff;  
+        color: #5b548a;  
     }
 
-    .temp {
-        font-size: 3rem;
+    
+    button:hover {
+        background: #00feba;
+        color: #1f1f1f;
+        transform: translateY(-2px);
     }
 
-    .city-name {
-        font-size: 1.5rem;
+    button:active {
+        background: #00feba; 
+        color: #1f1f1f;
+        transform: translateY(0);
     }
 
-    .details {
-        flex-direction: column;
-        gap: 10px;
-        padding-top: 10px;
-    }
+    .temp {  
+        font-size: 3rem;  
+    }  
 
-    #weatherResult img {
-        width: 80px;
+    .city-name {  
+        font-size: 1.5rem;  
+    }  
+
+    .details {  
+        flex-direction: column;  
+        gap: 10px;  
+        padding-top: 10px;  
+    }  
+
+    #weatherResult img {  
+        width: 80px;  
     }
 }
