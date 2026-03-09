@@ -28,7 +28,6 @@ body {
     transition: all 0.3s ease;
 }
 
-
 h1 {
     font-weight: 600;
     margin-bottom: 20px;
@@ -115,4 +114,36 @@ button:hover {
     font-size: 0.9rem;
     opacity: 0.9;
     color: #444;
+}
+
+/* ------------------- Responsive for Mobile ------------------- */
+@media (max-width: 480px) {
+    .weather-card {
+        padding: 25px 15px;
+        width: 95%;
+        border-radius: 20px;
+    }
+
+    input, button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .temp {
+        font-size: 3rem;
+    }
+
+    .city-name {
+        font-size: 1.5rem;
+    }
+
+    .details {
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+    }
+
+    #weatherResult img {
+        width: 80px;
+    }
 }

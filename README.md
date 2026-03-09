@@ -25,7 +25,7 @@ The application uses JavaScript Fetch API to retrieve weather data and update th
 - 🌥️ Displays weather condition with icon
 - ⌨️ Enter key support for quick search
 - 🎨 Clean modern UI with gradient background
-- 📱 Responsive design
+- 📱 Responsive design for mobile, tablet and esktop devices.
 
 
 🛠️ Technologies Used
