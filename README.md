@@ -1,11 +1,10 @@
-🌤️ Modern Weather App
+## Modern Weather App
 
 A simple and modern Weather Application built using HTML, CSS, and JavaScript that allows users to check real-time weather information for any city using the OpenWeatherMap API.
 
 This project demonstrates how to fetch data from an API and dynamically display it on a webpage with a clean and responsive UI.
 
-
-📌 Project Overview
+## Project Overview
 
 The Weather App allows users to enter the name of a city and instantly view the current weather details including:
 
@@ -17,7 +16,7 @@ The Weather App allows users to enter the name of a city and instantly view the 
 The application uses JavaScript Fetch API to retrieve weather data and update the interface dynamically.
 
 
-✨ Features
+## Features
 
 - 🔎 Search weather by city name
 - 🌡️ Displays current temperature
@@ -28,7 +27,7 @@ The application uses JavaScript Fetch API to retrieve weather data and update th
 - 📱 Responsive design for mobile, tablet and desktop devices.
 
 
-🛠️ Technologies Used
+## Technologies Used
 
 - HTML5 – Structure of the application
 - CSS3 – Styling and layout design
@@ -36,17 +35,18 @@ The application uses JavaScript Fetch API to retrieve weather data and update th
 - OpenWeatherMap API – Real-time weather data source
 
 
-📂 Project Structure
+## Project Structure
 
+```text
 Weather-App/
 │
 ├── index.html      # Main HTML file
 ├── style.css       # Styling and layout
 ├── script.js       # Weather API logic
 └── README.md       # Project documentation
+```
 
-
-⚙️ How It Works
+## How It Works
 
 1. User enters a city name in the search input.
 2. JavaScript sends a request to the OpenWeatherMap API.
@@ -59,11 +59,13 @@ Weather-App/
 5. The data is displayed dynamically on the webpage.
 
 
-▶️ How to Run the Project
+## How to Run the Project
 
 1. Clone this repository:
-
+2. 
+```bash
 git clone https://github.com/Sehrish-web209/weather-app.git
+```
 
 2. Open the project folder.
 
@@ -78,7 +80,7 @@ const apiKey = "YOUR_API_KEY_HERE";
 Check out the live version of the Weather App here:  
 [https://sehrish-web209.github.io/Weather-app/](https://sehrish-web209.github.io/Weather-app/)
 
-🎥 Project Demo
+## Project Demo
 
 You can record a short screen recording showing:
 
@@ -87,8 +89,7 @@ You can record a short screen recording showing:
 - Displaying weather results
 - Showing temperature, humidity, and weather condition
 
-
-📚 Learning Outcomes
+## Learning Outcomes
 
 Through this project, I practiced:
 
@@ -98,7 +99,7 @@ Through this project, I practiced:
 - Creating a responsive UI
 - Building an interactive web application
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Sehrish Maqbool
 BSIT Student at University of Chakwal
